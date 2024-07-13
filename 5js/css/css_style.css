@@ -1,0 +1,103 @@
+body{
+    background: #ecd4f5;
+    background-size: 100%;
+}
+
+@font-face {
+    font-family: "Monotype Corsiva";
+    src: url("../fonts/monotype-corsiva.woff") format("woff"), url("../fonts/monotype-corsiva.woff2") format("woff2"); 
+    /* Modern Browsers */
+    font-weight: normal;
+    font-style: normal;
+  }
+
+h1, h2, h3, h4, h5, h6 {
+    font-family: "Monotype Corsiva";
+    color: purple;
+}
+
+h2{
+    text-align: center;
+    font-size: 30px;
+}
+.papa{
+    display: flex;
+    justify-content: center;
+    align-items: center
+}
+span {
+    color:  rgb(110, 3, 168);
+}
+
+p {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 16pt;
+}
+
+a {
+    text-decoration: none;
+}
+
+.name__page {
+    text-align: center;
+    font-size: 40px;
+    }
+
+.second__name__page{
+    text-align: left;
+    font-size: 32px;
+}
+
+.third__name__page {
+    color: red;
+}
+
+
+.list {
+    list-style:decimal;
+}
+
+.first__li {
+    color: red;
+    font-size: 18pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+.second_li{
+    color:yellow;
+    font-size: 20pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+ 
+.third_li{
+    color:green;
+    font-size: 22pt;
+    font-family: 'Times New Roman', Times, serif;
+}
+
+table {
+    border: 1px solid black;
+    border-collapse: collapse;
+    font-family: Arial, Helvetica, sans-serif;
+    width: 50%;
+    text-align: center;
+    background-color: rgb(241, 114, 133);
+    text-align: center;
+}
+
+td, tr {
+    border: 1px solid black;
+    border-collapse: collapse;
+    padding: 5px;
+}
+
+.pif {
+    background-color: lightgoldenrodyellow;
+}
+
+.paf {
+    background-color: rgb(166, 172, 255);
+}
+
+
+

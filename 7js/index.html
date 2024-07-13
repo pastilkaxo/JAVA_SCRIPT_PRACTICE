@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+    <form name="data">
+        <fieldset>
+            <textarea name="faculty">Факультет информационных технологий</textarea><br>
+            <input id="family" type="text" name="family" placeholder="Фамилия"><br>
+            <input type="text" placeholder="Имя"><br>
+            
+            <span>Специальность:</span>
+            <select name="speciality" >
+                <option value="ПОИТ">ПОИТ</option>
+                <option value="ИСиТ">ИСиТ</option>
+                <option value="ДЭВИ">ДЭВИ</option>
+                <option value="ПОИБМС">ПОИБМС</option>
+            </select><br>
+
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Курс:</p>
+            <input type="radio" name="kours" value="1"><span style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">1</span>
+            <input type="radio" name="kours" value="2"><span >2</span>
+            <input type="radio" name="kours" value="3"><span >3</span>
+            <input type="radio" name="kours" value="4"><span >4</span>
+            <br>
+            <p style="font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;">Предметы:</p>
+            <input type="checkbox" name="subject"   value="ОИТ"><span>ОИТ</span>
+            <input type="checkbox" name="subject"  value="ОАП"><span>ОАuП</span>
+            <input type="checkbox" name="subject"  value="История"><span>История</span>
+            <input type="checkbox"  name="subject"  value="Физика"><span>Физика</span>
+            <input type="checkbox" name="subject"   value="Математика"><span>Математика</span>
+            <br>
+            <div id="printBlock"></div>
+            <input type="submit" value="submit">
+            <input type="reset" value="reset">
+            <br><br>
+            <input  onclick="but1()" type="button" value="Напечатать">
+      
+        </fieldset>
+        </form>
+   <script src="js.js"></script>
+    
+    
+</body>
+</html>

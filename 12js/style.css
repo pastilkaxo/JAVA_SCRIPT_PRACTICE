@@ -1,0 +1,10 @@
+button {
+    width: 100px;
+    height: 70px;
+    background-color: black;
+    color: white;
+}
+#but1 , #but2 {
+    margin: 30px;
+    float: right;
+}

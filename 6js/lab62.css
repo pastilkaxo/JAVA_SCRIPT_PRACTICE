@@ -1,0 +1,27 @@
+
+img.fig1 {
+    float: left;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    clear: none;
+   width: 300px;
+  height: 250px;
+  }
+  
+  .text {
+    text-indent: 25px;
+    font-size: 20px;
+    color: black;
+    
+  }
+  img.fig2 {
+    float: right;
+    padding-left: 10px;
+    padding-bottom: 10px;
+    clear: none;
+    width: 300px;
+    height: 250px;
+   
+  }
+
+ 

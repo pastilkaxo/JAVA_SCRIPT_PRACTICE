@@ -1,0 +1,43 @@
+nav{
+    margin-left: 700px;
+    margin-top: 30px ;
+   display: flex;
+   justify-content: space-between;
+   width: 300px;
+        background-color: rgb(146, 146, 214);
+}
+#nav{
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+    width: 200px;
+
+}
+.menu-item{
+    margin-left: 50px;
+    color: white;
+	display: inline-block;
+	position: relative;
+	cursor: pointer;
+    font-size: 20px;
+    }
+    .menu-item .submenu{
+        height: 25px;
+        width: 90px;
+        left: -5px;
+        background: purple;
+        position: absolute;
+        cursor: pointer;
+        display: none;
+        font-family: 'Courier New', Courier, monospace;
+        font-style: italic;
+        color: white;
+        animation: anim .5s linear;
+    }
+ 
+
+ @keyframes anim {
+    from{transform: translate(0, 15px);}
+	to{transform: translate(0, 0px);}
+ }
+   

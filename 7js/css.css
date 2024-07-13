@@ -1,0 +1,11 @@
+textarea {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+     color: black;
+     margin: 10px 10px 10px 10px;
+}
+span {
+    font-family: Impact, Haettenschweiler, 'Arial Narrow Bold', sans-serif;
+}
+fieldset {
+    width: 450px;
+}

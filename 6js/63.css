@@ -1,0 +1,11 @@
+.top {
+    text-align: center;
+    margin-top: 20px;
+    
+}
+figure{
+    padding: 10px;
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    text-align: center;
+}

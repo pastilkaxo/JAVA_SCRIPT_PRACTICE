@@ -1,0 +1,100 @@
+
+     
+     
+     @font-face {
+      font-family:"Pacifico";
+      src: url(./Pacifico-Regular.ttf);
+     }
+     @font-face {
+      font-family: "Comforta";
+      src: url(./Cormorant-Italic-VariableFont_wght.ttf);
+     }
+      
+     input{
+      box-shadow: inset 2px 2px 2px green;
+
+ 
+
+     }
+
+
+     .spisok li {
+      list-style: none;
+      background-image: url(http://cdn.onlinewebfonts.com/svg/img_89843.png);
+      background-repeat: no-repeat;
+      background-size: 25px;
+      padding-left: 25px;
+      margin-bottom: 10px;
+      }
+      
+
+       p {
+        font-family:"Pacifico";
+        text-align: justify;
+        font-size: 1.2em;
+       }
+
+      
+   
+   #first span {
+    font-family: First Font, sans-serif;
+        color: deeppink;
+   }
+   
+    table{
+        border-collapse: collapse;
+        font-family: Bahnschrift;
+        width: 70%;
+        text-align: center;
+        font-weight: 500;
+        font-style: italic;
+        color: hsl(0, 21%, 21%);
+        font-size: 14pt;
+        margin: 1px;
+    }
+     td{
+        padding: 5px;
+        border: 1px rgba(138, 80, 80, 1) solid;
+    }
+ 
+    
+    h1, h2, h3{
+  font-family: "Comforta";
+  text-align: center;
+   
+    color: deeppink;
+}
+
+img.fig1 {
+  float: left;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  clear: none;
+ width: 300px;
+height: 250px;
+}
+
+.text {
+  text-indent: 25px;
+  font-size: 20px;
+  color: black;
+  
+}
+img.fig2 {
+  float: right;
+  padding-left: 10px;
+  padding-bottom: 10px;
+  clear: none;
+  width: 300px;
+  height: 250px;
+ 
+}
+
+body{
+  background-image: url('fit.png');
+  background-color: #799db4;
+  background-attachment: fixed;
+  background-repeat: no-repeat;
+  background-position: right top;
+ 
+}

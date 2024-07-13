@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="css.css">
+</head>
+<body>
+<span onclick="drag1()" id="text_move">Область текста</span><br>
+<figure>
+<img onclick="drag2()" id="img_move" src="5https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg">
+</figure>
+
+
+
+
+
+<figure>
+    <img id="zad2" src="https://upload.wikimedia.org/wikipedia/commons/thumb/3/3a/Cat03.jpg/1200px-Cat03.jpg">
+</figure>
+<figure>
+    <img id="zad3"  src="https://doctor-veterinar.ru/media/k2/items/cache/675d28c04794e3c683f4419536c4c15f_L.jpg" >
+</figure>
+
+
+<form name="data">
+    <input type="radio" name="radik" id="rd1"> y = x^2
+    <input type="radio" name="radik" id="rd2" > y = x^3
+    <input type="radio" name="radik" id="rd3" > y = sin(x)
+    <input type="radio" name="radik" id="rd4"> y = cos(x)
+    <select id="select">
+        <option value="red">Красный</option>
+        <option value="blue">Синий</option>
+        <option value="green">Зеленый</option>
+        <option value="black">Черный</option>
+    </select>
+    
+</form>
+<canvas id=canvas width=400px height=500px style="background:white"></canvas>
+<button onclick="draw()" style="float: left;">Начертить</button>
+
+    <script src="js.js"></script>
+</body>
+</html>

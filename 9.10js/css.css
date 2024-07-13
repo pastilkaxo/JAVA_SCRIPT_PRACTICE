@@ -1,0 +1,73 @@
+*{
+    margin: auto;
+    padding: auto;
+    background-color: cadetblue;
+   
+}
+span {
+    display: flex;
+  margin: 30px;
+  position: relative;
+  cursor: pointer;
+  font-size: 30px;
+  border: 3px solid black;
+ padding: 3px;
+ width: 300px;
+ text-align: justify;
+
+}
+img {
+    display: flex;
+    margin: 30px;
+    position: relative;
+    cursor: pointer;
+}
+
+#zad2 {
+    position: relative;
+    cursor: pointer;
+    width: 300px;
+    height: 300px;
+}
+
+#zad3 {
+    position: relative;
+    cursor: pointer;
+    width: 200px;
+    height: 200px;
+}
+
+
+button {
+    background-color: red;
+    color: white ;
+    margin: 10px 10px 10px 10px;
+    height: 50px;
+    width: 400px;
+    font-size: 20px;
+    
+}
+button:hover{
+    background-color: green;
+    color: white;
+}
+
+form{
+    padding: 15px;
+    border: 3px solid black;
+    background-color: goldenrod;
+    width: 500px;
+
+}
+select {
+    border: 2px solid black;
+    height: 30px;
+    text-align: center;
+    width: 150px;
+    margin-left: 30px;
+    background-color: rgb(101, 101, 216);
+    color: white;
+}
+option{
+    background-color: rgb(101, 101, 216);
+}
